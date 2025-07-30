@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #111, #222, #1e1e1e);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: radial-gradient(#222, #000);
+  animation: backgroundMove 10s infinite alternate ease-in-out;
+}
+
+@keyframes backgroundMove {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.05); }
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background-color: gold;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.certificate-area {
+  display: none;
+  margin-top: 2rem;
+}
+
+.certificate-img {
+  max-width: 100%;
+  border: 4px solid gold;
+  border-radius: 12px;
+  box-shadow: 0 0 20px gold;
+}
