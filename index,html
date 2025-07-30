@@ -15,7 +15,7 @@
     <button id="acceptBtn">ACCEPT</button>
     
     <div class="certificate-area" id="certificateArea">
-      <img src="certificate.png" alt="Certificate" class="certificate-img" />
+      <img src="https://drive.google.com/file/d/1XgctQzSQiiRnGq6fL0ELc5gzIYm7YCbe/view?usp=drive_link" alt="Certificate" class="certificate-img" />
     </div>
   </div>
 
