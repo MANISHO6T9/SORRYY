@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Certified Reel Watcher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background"></div>
+
+  <div class="container">
+    <h1>THIS AWARD IS AWARDED TO YOU FOR BEING A CERTIFIED REEL WATCHER</h1>
+    <p>CONGRATULATIONS!</p>
+    <button id="acceptBtn">ACCEPT</button>
+    
+    <div class="certificate-area" id="certificateArea">
+      <img src="certificate.png" alt="Certificate" class="certificate-img" />
+    </div>
+  </div>
+
+  <canvas id="confetti-canvas"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
